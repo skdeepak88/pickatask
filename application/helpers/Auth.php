@@ -37,6 +37,7 @@ class Auth extends Core {
 			return $lo_user;
 
 		$this->logout();
+
 		return false;
 	}
 
