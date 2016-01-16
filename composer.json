@@ -1,0 +1,14 @@
+{
+    "minimum-stability": "dev",
+	"require": {
+        "mercury/framework": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mercury\\App\\": "application"
+        }
+    },
+    "extra": {
+        "assets-dir" : "assets/vendors/"
+    }
+}
